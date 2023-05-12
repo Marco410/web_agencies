@@ -1,0 +1,14 @@
+
+.nav-papelera{
+    background-color: beige;
+}
+
+.nav-papelera a{
+    color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #D90023;
+}
+
+

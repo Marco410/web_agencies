@@ -1,0 +1,278 @@
+/* Home */
+
+.video iframe {
+    width: 100%;
+}
+
+.section-search .search-box .search-btn{
+    margin-top: 15px ;
+}
+/* Sobre nosotros */
+
+
+.about-blk-image iframe {
+    width: 100%;
+}
+
+.about-us .container .col-6 {
+    min-width: 300px;
+}
+
+
+/* Contactanos */
+
+
+.col-4.wrap-cont {
+    min-width: 255px;
+}
+
+@media only screen and (max-width: 764px) {
+    .contact-us .content .container .row .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact-us .content .container .row .col-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .desk{
+        display: none !important;
+    }
+
+    .movil{
+        display: block!important;
+    }
+    .plataforma-section .text {
+        width: 50%;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: 25%;
+    }
+
+    .plataforma-section .text img {
+       width: 35px;
+    }
+    .logo-contactanos{
+        margin-bottom: 40px;
+    }
+}
+
+
+@media only screen and (max-width:990px) {
+    .table-responsive {
+        white-space: nowrap;
+    }
+
+    .desk{
+        display: none!important;
+    }
+
+    .movil{
+        display: block!important;
+    }
+
+    .search-input {
+        border-bottom: 2px solid #ccc;
+    }
+
+    .search-btn {
+        margin: 40px 0;
+        width: 100%;
+    }
+
+    .content .icono-comentarios {
+        display: flex;
+    }
+
+    .navbar-header{
+        width: auto;
+    }
+    .navbar .navbar-expand-lg .header-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .plataforma-section .text {
+        width: 50%;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: 25%;
+    }
+
+    .plataforma-section .text img {
+       width: 35px;
+    }
+    .logo-contactanos{
+        margin-bottom: 40px;
+    }
+
+    .home-banner-landing {
+	    max-height: 530px!important;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .desk{
+        display: none!important;
+    }
+
+    .movil{
+        display: block!important;
+    }
+
+    .home-banner-landing {
+	    max-height: 600px!important;
+    }
+}
+
+.icono-comentarios {
+    position: fixed;
+    background-color: red;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99;
+}
+
+.icono-comentarios a {
+
+    color: white;
+}
+
+/* Terms and conditions */
+
+.terms-text {
+    margin-top: 40px;
+}
+
+.terms-text p {
+    line-height: 35px;
+    text-align: justify;
+}
+
+
+
+.terms-text ol li {
+    padding-top: 20px;
+    list-style-type: lower-latin;
+}
+
+/* Imagen Stock de contactanos */
+
+.map-grid {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.map-grid img {
+    object-fit: cover;
+    position: relative;
+    /* top: -100px; */
+    width: 100%;
+    height: 100%;
+}
+
+/* admin */
+.label-input__modal {
+    display: inline-block;
+    width: 100%;
+
+}
+
+
+/* admin-edit */
+
+.label-edit {
+    color: red;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .about-us .container .row {
+        justify-content: center;
+    }
+
+    /* Index Quienes somos */
+    .quienes-somos .text {
+        padding-right: 0;
+    }
+
+
+    .about-us .container .col-6 {
+        flex: 0 0 90%;
+        max-width: 100%;
+    }
+
+    .desk{
+        display: none!important;
+    }
+
+    .movil{
+        display: block!important;
+    }
+    .plataforma-section .text {
+        width: 50%;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: 25%;
+    }
+
+    .plataforma-section .text img {
+       width: 35px;
+    }
+    .logo-contactanos{
+        margin-bottom: 40px;
+    }
+    .home-banner-landing {
+	    max-height: 670px!important;
+    }
+    
+}
+
+/* Agencia detalles */
+
+@media only screen and (max-width:421px) {
+    .service-tabs .resp-mov {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .desk{
+        display: none!important;
+    }
+
+    .movil{
+        display: block!important;
+    }
+
+    .plataforma-section .text {
+        width: 50%;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: 25%;
+    }
+
+    .plataforma-section .text img {
+       width: 35px;
+    }
+    .logo-contactanos{
+        margin-bottom: 40px;
+    }
+
+    .home-banner-landing {
+	    max-height: 790px!important;
+    }
+
+}
